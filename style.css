@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 100%;
+  background: url(./Rectangle\ 1.png);
+  background-size: cover;
+  background-position: center, center;
+  height: 600px;
+
+}
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: bisque;
+  padding: 17px, 0px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+
+}
+
+.logo{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 140px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 15px;
+/* identical to box height */
+
+
+/* Oran ge */
+
+ color: #0800ff;
+
+}
+
+header nav ul li a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgb(0, 208, 255);
+}
+
+header h1{
+  margin: top;
+  text-align: center;
+}
+header p{
+  margin: top;
+  text-align: center;
+}
+
+section{
+  padding: 36px 0 50px;
+}
+
+section .menu{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+section .menu .katta{
+  width: 70%;
+  background: url(./Rectangle\ 2\ \(1\).png);
+}
+
+section .menu .katta button{
+  background-color: blue;
+}
+
+section .menu .katta1{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+section .menu .katta1 .orta1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+section .menu .katta1 .orta1 .oxiri{
+  width: 100%;
+  background: url(./Rectangle\ 4.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section .menu .katta1 .orta1 .oxiri3{
+  width: 100%;
+  background: url(./Rectangle\ 5.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main{
+  background: coral;
+}
+
+main .menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+main .menu button{
+  background: red;
+}
+
+footer .katta{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .katta .menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: red;
+}
+
+footer .katta .oxiri{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
